@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +8,78 @@
     <link rel="stylesheet" href="assets/css/cards.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav aria-label="NavBar Title"></nav>
+      <nav aria-label="Nav Menu">
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1 class="main-title">Welcome to JLBBARCO</h1>
+        <p>This is website for showcasing my main personal projects</p>
+      </section>
+      <section id="projects" class="cards-container">
+        <!-- Cards will be dynamically inserted here -->
+        <div class="card">
+          <img
+            src="assets/img/portfolio-jlbbarco.png"
+            alt="Image of Portfolio Project"
+          />
+          <h2>Portfolio</h2>
+          <p>Site of Portfolio by Jose Luiz Bruiani Barco</p>
+          <article class="buttons">
+            <a
+              href="https://github.com/jlbbarco/portfolio"
+              class="linkButtonCard"
+              >View Code</a
+            ><a
+              href="https://portfolio-jlbbarco.vercel.app"
+              class="linkButtonCard"
+              >View Demo</a
+            >
+          </article>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/study-jlbbarco.png"
+            alt="Image of the Study Project"
+          />
+          <h2>Study</h2>
+          <p>Repository for storing files created for study of programming</p>
+          <article class="buttons">
+            <a href="https://github.com/jlbbarco/study" class="linkButtonCard"
+              >View Code</a
+            ><a href="https://study-jlbbarco.vercel.app" class="linkButtonCard"
+              >View Demo</a
+            >
+          </article>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/contact-jlbbarco.png"
+            alt="Image of the Contact Project"
+          />
+          <h2>Contact</h2>
+          <p>Site for Contact-me</p>
+          <article class="buttons">
+            <a href="https://github.com/jlbbarco/contact" class="linkButtonCard"
+              >View Code</a
+            ><a
+              href="https://contact-jlbbarco.vercel.app"
+              class="linkButtonCard"
+              >View Demo</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p><span class="copyright"></span> JLBBARCO. All rights reserved.</p>
+    </footer>
     <script src="assets/js/icons.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
