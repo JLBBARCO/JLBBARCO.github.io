@@ -131,18 +131,6 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
-  .main-title {
-    font-size: 2em;
-  }
-  #hero {
-    padding: 30px 15px;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
 @media (max-width: 400px) {
   .main-title {
     font-size: 1.5em;
@@ -158,35 +146,5 @@ footer {
     --card-background-color: #1e1e1e;
     --card-border-color: #333333;
     --card-shadow-color: rgba(0, 0, 0, 0.5);
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  * {
-    transition: none !important;
-  }
-}
-@media (max-width: 800px) {
-  html {
-    transform: scale(0.9);
-  }
-}
-@media (max-width: 500px) {
-  html {
-    transform: scale(0.8);
-  }
-}
-@media (max-width: 350px) {
-  html {
-    transform: scale(0.7);
-  }
-}
-@media (max-width: 300px) {
-  html {
-    transform: scale(0.6);
-  }
-}
-@media (max-width: 250px) {
-  html {
-    transform: scale(0.5);
   }
 }
